@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256606915884",
+    "firebase_url": "https://adszworlds-4578c.firebaseio.com",
+    "project_id": "adszworlds-4578c",
+    "storage_bucket": "adszworlds-4578c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256606915884:android:9a543c80568974ba",
+        "android_client_info": {
+          "package_name": "com.vjsm.sports.adszworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256606915884-ne6rn298cq278825ppkrlql394dhn65j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjsm.sports.adszworld",
+            "certificate_hash": "13a24ad36d2858660d3233697c3703e5b107a52d"
+          }
+        },
+        {
+          "client_id": "256606915884-r1kant1fp4328alg6r044acvmh643uhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqPMT2nNrBD8R6aOJ1kA1rL7cxyKDzTtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256606915884-r1kant1fp4328alg6r044acvmh643uhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

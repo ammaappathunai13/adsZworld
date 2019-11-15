@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".CodeVerification">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:alpha=".5"
+            android:src="@drawable/mobilesize"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/yellow"
+
+                    android:textSize="30sp"
+                    android:layout_marginTop="50dp"
+                    android:textAlignment="center"
+                    android:text="Mobile Number Verification"/>
+
+                <EditText
+                    android:id="@+id/verificationcode"
+                    android:hint="Verification Code"
+                    android:textColorHint="@color/black"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/orange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_below="@+id/verificationcode"
+                    android:layout_marginTop="100dp"
+                    android:id="@+id/submit"
+                    android:layout_centerInParent="true"
+                    android:text="SUBMIT"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

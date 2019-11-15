@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bank_details_Upload">
+
+
+
+    <ImageView
+        android:alpha=".3"
+        android:layout_width="match_parent"
+        android:src="@drawable/mobilesize"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/bankdetails_title"
+                    android:textSize="30dp"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    android:text="Bank Details"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+
+                android:textColor="@color/red"
+                android:text="* Money automatically transfer in your bank account "
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="* Fill Correct Details "
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:id="@+id/bank_name_Bank_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Bank Name(*)"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:id="@+id/account_number_Bank_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Account Number(*)"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:id="@+id/Account_Holeder_Name_Bank_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Account Holder Name(*)"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:id="@+id/ifsc_Bank_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="IFSC(*)"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:id="@+id/Branch_bank_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Branch(*)"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@color/green"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@+id/add_bank_details"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                android:id="@+id/register_And_signin"
+                android:layout_width="match_parent"
+                android:text="User help"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/maroon"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

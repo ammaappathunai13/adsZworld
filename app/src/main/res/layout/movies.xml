@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mix_Videos">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight=".08"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/mobilesize"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_weight=".09"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="#6100"
+                            app:cardCornerRadius="2dp"
+                            app:cardElevation="2dp"
+                            app:contentPadding="3dp"
+                            app:cardUseCompatPadding="true"
+                            >
+                            <android.support.v7.widget.RecyclerView
+                                android:background="@color/gray"
+                                android:id="@+id/recyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scrollbarSize="5dp"
+
+                                android:scrollbarThumbVertical="@android:color/darker_gray"
+                                android:scrollbars="vertical">
+                            </android.support.v7.widget.RecyclerView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textSize="30dp"
+                                android:visibility="invisible"
+                                android:id="@+id/nodate"
+                                android:layout_marginTop="190dp"
+                                android:text="NO videos Found"/>
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight=".9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-2741745301323571/1989713219">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

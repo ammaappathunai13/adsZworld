@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/mobilesize"
+            android:scaleType="fitXY"
+            android:alpha=".5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:text="adsZworld Registration"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:text="Don`t Forget Your UserID and Password"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:padding="20dp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_marginTop="50dp"
+                                android:textColorHint="@color/black"
+                                android:textColor="@color/black"
+                                android:singleLine="true"
+                                android:id="@+id/name_registration"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Name(*)"
+                                android:textStyle="bold" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_marginTop="50dp"
+                                android:textColorHint="@color/black"
+                                android:textColor="@color/black"
+                                android:singleLine="true"
+                                android:id="@+id/userID_Registration"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="UserId(*)"
+                                android:textStyle="bold" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_marginTop="50dp"
+                                android:textColorHint="@color/black"
+                                android:textColor="@color/black"
+                                android:singleLine="true"
+                                android:maxLength="10"
+                                android:inputType="phone"
+                                android:id="@+id/phonenumber_registration"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Phone Nubmer(*)"
+                                android:textStyle="bold" />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_marginTop="50dp"
+                                android:textColorHint="@color/black"
+                                android:textColor="@color/black"
+                                android:singleLine="true"
+                                android:inputType="textPassword"
+                                android:id="@+id/password_registration"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Password(*)"
+                                android:textStyle="bold" />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:inputType="textPassword"
+                                android:layout_marginTop="50dp"
+                                android:textColorHint="@color/black"
+
+                                android:textColor="@color/black"
+                                android:singleLine="true"
+                                android:id="@+id/confirm_password_registration"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Confirm Password(*)"
+                                android:textStyle="bold" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/register_registration"
+                            android:layout_alignParentBottom="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="100dp"
+                            android:background="@color/green"
+                            android:text="Register"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:textSize="18dp"
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/register_And_signin"
+                            android:layout_width="match_parent"
+                            android:text="User help"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@color/maroon"
+                            android:visibility="invisible"
+                            android:layout_height="wrap_content" />
+
+
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mixvideos"
+        android:icon="@drawable/mix_videos"
+        android:title="CommonVids" />
+    <item
+        android:id="@+id/comedy"
+        android:icon="@drawable/comedy_video"
+        android:title="Comedy" />
+    <item
+        android:id="@+id/songs"
+        android:icon="@drawable/video_songs"
+        android:title="Comedy" />
+    <item
+        android:id="@+id/movies"
+        android:icon="@drawable/movies"
+        android:title="Movies" />
+    <item
+        android:id="@+id/comments"
+        android:icon="@drawable/comments"
+        android:title="Comment" />
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/accout_icon"
+        android:title="Account" />
+
+</menu>
